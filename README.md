@@ -6,8 +6,8 @@ A Python-based AI system that manages city traffic, handles emergency vehicle ro
 
 ## What This Project Does
 
-This system takes incoming requests from vehicles (civilian or emergency) and decides the best route, checks if the request is
-allowed under city policy, assigns traffic signal phases, and predicts priority levels — all automatically.
+This system takes incoming requests from vehicles (civilian or emergency) and decides the best route, checks 
+if the request is allowed under city policy, assigns traffic signal phases, and predicts priority levels — all automatically.
 
 ---
 
@@ -65,19 +65,6 @@ Open `Project_Code.ipynb` in Jupyter Notebook or VS Code and run all cells.
 
 ---
 
-## Project Structure
-
-```
-project/
-│
-├── Project_Code.ipynb     # Main notebook with all modules
-├── logic.py               # FOL knowledge base (from AIMA library)
-├── utils.py               # Helper utilities (from AIMA library)
-└── README.md
-```
-
----
-
 ## Sample Output
 
 The system processes 4 test requests and for each one prints:
@@ -105,11 +92,10 @@ Then a visual map is shown with the route highlighted in red.
 
 ## Group Members
 
-| Names                   |
-|-------------------------|
-| Muhammad Uzair Hussain  |
-| Muhammad Abdullah       |
-| Masroor Ahmad Zafar     |
+
+| Muhammad Uzair Hussain   |
+| Muhammad Abdullah        |
+| Masroor Ahmad Zafar      |
 
 ---
 
